@@ -1,8 +1,7 @@
-﻿using System;
-
-public class Class1
+﻿public class HaloGeneric
 {
-	public Class1()
-	{
-	}
+    public void SapaUser<T>(T x)
+    {
+        Console.WriteLine($"Halo user {x}");
+    }
 }
